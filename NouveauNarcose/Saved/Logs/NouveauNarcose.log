@@ -1,4 +1,4 @@
-﻿Log file open, 02/20/20 09:30:37
+﻿Log file open, 02/20/20 09:33:03
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogInit: Display: Running engine for game: NouveauNarcose
 LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.187722
+LogStats: Stats thread started at 0.199391
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -156,485 +156,436 @@ LogInit: Presizing for max 16777216 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.02.20-08.30.37:672][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2020.02.20-08.30.37:673][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2020.02.20-08.30.37:673][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [E:/Unreal projects/Narcose/trunk/NouveauNarcose/Saved/Config/Windows/Engine.ini]
-[2020.02.20-08.30.37:673][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2020.02.20-08.30.37:673][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
-[2020.02.20-08.30.37:673][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
-[2020.02.20-08.30.37:673][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [E:/Unreal projects/Narcose/trunk/NouveauNarcose/Saved/Config/Windows/Engine.ini]
-[2020.02.20-08.30.37:673][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/Unreal projects/Narcose/trunk/NouveauNarcose/Saved/Config/Windows/Engine.ini]
-[2020.02.20-08.30.37:673][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2020.02.20-08.30.37:673][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2020.02.20-08.30.37:673][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2020.02.20-08.30.37:673][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2020.02.20-08.30.37:673][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2020.02.20-08.30.37:673][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2020.02.20-08.30.37:673][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2020.02.20-08.30.37:673][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2020.02.20-08.30.37:673][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2020.02.20-08.30.37:673][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2020.02.20-08.30.37:673][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2020.02.20-08.30.37:673][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2020.02.20-08.30.37:673][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2020.02.20-08.30.37:673][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [E:/Unreal projects/Narcose/trunk/NouveauNarcose/Saved/Config/Windows/Engine.ini]
-[2020.02.20-08.30.37:673][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2020.02.20-08.30.37:673][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2020.02.20-08.30.37:673][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2020.02.20-08.30.37:673][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2020.02.20-08.30.37:673][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2020.02.20-08.30.37:673][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2020.02.20-08.30.37:673][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
-[2020.02.20-08.30.37:673][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2020.02.20-08.30.37:673][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2020.02.20-08.30.37:673][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2020.02.20-08.30.37:673][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2020.02.20-08.30.37:673][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2020.02.20-08.30.37:673][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2020.02.20-08.30.37:673][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [E:/Unreal projects/Narcose/trunk/NouveauNarcose/Saved/Config/Windows/Engine.ini]
-[2020.02.20-08.30.37:673][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [E:/Unreal projects/Narcose/trunk/NouveauNarcose/Saved/Config/Windows/Engine.ini]
-[2020.02.20-08.30.37:676][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/Unreal projects/Narcose/trunk/NouveauNarcose/Saved/Config/Windows/Scalability.ini]
-[2020.02.20-08.30.37:676][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.02.20-08.30.37:676][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.02.20-08.30.37:676][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/Unreal projects/Narcose/trunk/NouveauNarcose/Saved/Config/Windows/Scalability.ini]
-[2020.02.20-08.30.37:676][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.02.20-08.30.37:676][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/Unreal projects/Narcose/trunk/NouveauNarcose/Saved/Config/Windows/Scalability.ini]
-[2020.02.20-08.30.37:676][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.02.20-08.30.37:676][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.02.20-08.30.37:676][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.02.20-08.30.37:676][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.02.20-08.30.37:676][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.02.20-08.30.37:676][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.02.20-08.30.37:676][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.02.20-08.30.37:676][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.02.20-08.30.37:676][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.02.20-08.30.37:676][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.02.20-08.30.37:676][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.02.20-08.30.37:676][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.02.20-08.30.37:676][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.02.20-08.30.37:676][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.02.20-08.30.37:676][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.02.20-08.30.37:676][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.02.20-08.30.37:676][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.02.20-08.30.37:676][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.02.20-08.30.37:676][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/Unreal projects/Narcose/trunk/NouveauNarcose/Saved/Config/Windows/Scalability.ini]
-[2020.02.20-08.30.37:676][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.02.20-08.30.37:676][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.02.20-08.30.37:676][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.02.20-08.30.37:677][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.02.20-08.30.37:677][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.02.20-08.30.37:677][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.02.20-08.30.37:677][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.02.20-08.30.37:677][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.02.20-08.30.37:677][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.02.20-08.30.37:677][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.02.20-08.30.37:677][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.02.20-08.30.37:677][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.02.20-08.30.37:677][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.02.20-08.30.37:677][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.02.20-08.30.37:677][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.02.20-08.30.37:677][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.02.20-08.30.37:677][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.02.20-08.30.37:677][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.02.20-08.30.37:677][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.02.20-08.30.37:677][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.02.20-08.30.37:677][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.02.20-08.30.37:677][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.02.20-08.30.37:677][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.02.20-08.30.37:677][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.02.20-08.30.37:677][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.02.20-08.30.37:677][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.02.20-08.30.37:677][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.02.20-08.30.37:677][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.02.20-08.30.37:677][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.02.20-08.30.37:677][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.02.20-08.30.37:677][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/Unreal projects/Narcose/trunk/NouveauNarcose/Saved/Config/Windows/Scalability.ini]
-[2020.02.20-08.30.37:677][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.02.20-08.30.37:677][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.02.20-08.30.37:677][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.02.20-08.30.37:677][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.02.20-08.30.37:677][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.02.20-08.30.37:677][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.02.20-08.30.37:677][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.02.20-08.30.37:677][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.02.20-08.30.37:677][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/Unreal projects/Narcose/trunk/NouveauNarcose/Saved/Config/Windows/Scalability.ini]
-[2020.02.20-08.30.37:677][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.02.20-08.30.37:677][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.02.20-08.30.37:677][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.02.20-08.30.37:677][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.02.20-08.30.37:677][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.02.20-08.30.37:677][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.02.20-08.30.37:677][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.02.20-08.30.37:677][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.02.20-08.30.37:677][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.02.20-08.30.37:677][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.02.20-08.30.37:677][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.02.20-08.30.37:677][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.02.20-08.30.37:677][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.02.20-08.30.37:677][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/Unreal projects/Narcose/trunk/NouveauNarcose/Saved/Config/Windows/Scalability.ini]
-[2020.02.20-08.30.37:677][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.02.20-08.30.37:677][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.02.20-08.30.37:677][  0]LogInit: Selected Device Profile: [Windows]
-[2020.02.20-08.30.37:677][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.02.20-08.30.37:692][  0]LogHAL: Display: Platform has ~ 8 GB [8459030528 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.02.20-08.30.37:692][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
-[2020.02.20-08.30.37:692][  0]LogInit: Going up to parent DeviceProfile []
-[2020.02.20-08.30.37:692][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/Unreal projects/Narcose/trunk/NouveauNarcose/Saved/Config/Windows/Scalability.ini]
-[2020.02.20-08.30.37:692][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.02.20-08.30.37:692][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.02.20-08.30.37:692][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/Unreal projects/Narcose/trunk/NouveauNarcose/Saved/Config/Windows/Scalability.ini]
-[2020.02.20-08.30.37:692][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.02.20-08.30.37:692][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/Unreal projects/Narcose/trunk/NouveauNarcose/Saved/Config/Windows/Scalability.ini]
-[2020.02.20-08.30.37:692][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.02.20-08.30.37:692][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.02.20-08.30.37:692][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.02.20-08.30.37:692][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.02.20-08.30.37:692][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.02.20-08.30.37:692][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.02.20-08.30.37:692][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.02.20-08.30.37:692][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.02.20-08.30.37:692][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.02.20-08.30.37:692][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.02.20-08.30.37:692][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.02.20-08.30.37:692][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.02.20-08.30.37:692][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.02.20-08.30.37:692][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.02.20-08.30.37:692][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.02.20-08.30.37:692][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.02.20-08.30.37:692][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.02.20-08.30.37:692][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.02.20-08.30.37:692][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/Unreal projects/Narcose/trunk/NouveauNarcose/Saved/Config/Windows/Scalability.ini]
-[2020.02.20-08.30.37:692][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.02.20-08.30.37:692][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.02.20-08.30.37:692][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.02.20-08.30.37:692][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.02.20-08.30.37:692][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.02.20-08.30.37:692][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.02.20-08.30.37:692][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.02.20-08.30.37:692][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.02.20-08.30.37:692][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.02.20-08.30.37:692][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.02.20-08.30.37:692][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.02.20-08.30.37:692][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.02.20-08.30.37:692][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.02.20-08.30.37:692][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.02.20-08.30.37:692][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.02.20-08.30.37:692][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.02.20-08.30.37:692][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.02.20-08.30.37:692][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.02.20-08.30.37:692][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.02.20-08.30.37:692][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.02.20-08.30.37:693][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.02.20-08.30.37:693][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.02.20-08.30.37:693][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.02.20-08.30.37:693][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.02.20-08.30.37:693][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.02.20-08.30.37:693][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.02.20-08.30.37:693][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.02.20-08.30.37:693][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.02.20-08.30.37:693][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.02.20-08.30.37:693][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.02.20-08.30.37:693][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/Unreal projects/Narcose/trunk/NouveauNarcose/Saved/Config/Windows/Scalability.ini]
-[2020.02.20-08.30.37:693][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.02.20-08.30.37:693][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.02.20-08.30.37:693][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.02.20-08.30.37:693][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.02.20-08.30.37:693][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.02.20-08.30.37:693][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.02.20-08.30.37:693][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.02.20-08.30.37:693][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.02.20-08.30.37:693][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/Unreal projects/Narcose/trunk/NouveauNarcose/Saved/Config/Windows/Scalability.ini]
-[2020.02.20-08.30.37:693][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.02.20-08.30.37:693][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.02.20-08.30.37:693][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.02.20-08.30.37:693][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.02.20-08.30.37:693][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.02.20-08.30.37:693][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.02.20-08.30.37:693][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.02.20-08.30.37:693][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.02.20-08.30.37:693][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.02.20-08.30.37:693][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.02.20-08.30.37:693][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.02.20-08.30.37:693][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.02.20-08.30.37:693][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.02.20-08.30.37:693][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/Unreal projects/Narcose/trunk/NouveauNarcose/Saved/Config/Windows/Scalability.ini]
-[2020.02.20-08.30.37:693][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.02.20-08.30.37:693][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.02.20-08.30.37:693][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2020.02.20-08.30.37:693][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2020.02.20-08.30.37:693][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2020.02.20-08.30.37:693][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [E:/Unreal projects/Narcose/trunk/NouveauNarcose/Saved/Config/Windows/Engine.ini]
-[2020.02.20-08.30.37:693][  0]LogInit: Computer: DESKTOP-81G4TC1
-[2020.02.20-08.30.37:693][  0]LogInit: User: JordanBenureau
-[2020.02.20-08.30.37:693][  0]LogInit: CPU Page size=4096, Cores=4
-[2020.02.20-08.30.37:693][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.02.20-08.30.37:694][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2020.02.20-08.30.37:694][  0]LogMemory: Platform Memory Stats for Windows
-[2020.02.20-08.30.37:694][  0]LogMemory: Process Physical Memory: 98.06 MB used, 98.06 MB peak
-[2020.02.20-08.30.37:694][  0]LogMemory: Process Virtual Memory: 92.36 MB used, 92.36 MB peak
-[2020.02.20-08.30.37:694][  0]LogMemory: Physical Memory: 4465.38 MB used,  3601.79 MB free, 8067.16 MB total
-[2020.02.20-08.30.37:694][  0]LogMemory: Virtual Memory: 4633.46 MB used,  134213096.00 MB free, 134217728.00 MB total
-[2020.02.20-08.30.37:717][  0]LogInit: Using OS detected language (fr-FR).
-[2020.02.20-08.30.37:717][  0]LogInit: Using OS detected locale (fr-FR).
-[2020.02.20-08.30.37:718][  0]LogTextLocalizationManager: No specific localization for 'fr-FR' exists, so the 'fr' localization will be used.
-[2020.02.20-08.30.37:718][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/fr/Editor.locres' could not be opened for reading!
-[2020.02.20-08.30.37:718][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/fr/EditorTutorials.locres' could not be opened for reading!
-[2020.02.20-08.30.37:718][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/fr/Keywords.locres' could not be opened for reading!
-[2020.02.20-08.30.37:718][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/fr/Category.locres' could not be opened for reading!
-[2020.02.20-08.30.37:719][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/fr/ToolTips.locres' could not be opened for reading!
-[2020.02.20-08.30.37:719][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/fr/PropertyNames.locres' could not be opened for reading!
-[2020.02.20-08.30.37:719][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/fr/Engine.locres' could not be opened for reading!
-[2020.02.20-08.30.37:719][  0]LogInit: Setting process to per monitor DPI aware
-[2020.02.20-08.30.37:751][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.02.20-08.30.37:751][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.02.20-08.30.37:945][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.02.20-08.30.37:945][  0]LogD3D11RHI: D3D11 adapters:
-[2020.02.20-08.30.38:019][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
-[2020.02.20-08.30.38:019][  0]LogD3D11RHI:       1979/0/4033 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2020.02.20-08.30.38:032][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
-[2020.02.20-08.30.38:032][  0]LogD3D11RHI:       128/0/4033 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2020.02.20-08.30.38:034][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.02.20-08.30.38:034][  0]LogD3D11RHI:       0/0/4033 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.02.20-08.30.38:034][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.02.20-08.30.38:065][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.02.20-08.30.38:065][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8d (for the marketing name, search the web for "GPU Device Id")
-[2020.02.20-08.30.38:065][  0]LogWindows: EnumDisplayDevices:
-[2020.02.20-08.30.38:066][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
-[2020.02.20-08.30.38:066][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2020.02.20-08.30.38:066][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2020.02.20-08.30.38:066][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2020.02.20-08.30.38:067][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
-[2020.02.20-08.30.38:067][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2020.02.20-08.30.38:067][  0]LogD3D11RHI:      Driver Date: Unknown
-[2020.02.20-08.30.38:067][  0]LogRHI: Texture pool is 1385 MB (70% of 1979 MB)
-[2020.02.20-08.30.38:111][  0]LogD3D11RHI: Async texture creation enabled
-[2020.02.20-08.30.38:115][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2020.02.20-08.30.38:115][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2020.02.20-08.30.38:115][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2020.02.20-08.30.38:123][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2020.02.20-08.30.38:417][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
-[2020.02.20-08.30.38:432][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
-[2020.02.20-08.30.38:447][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
-[2020.02.20-08.30.38:462][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
-[2020.02.20-08.30.38:477][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
-[2020.02.20-08.30.38:492][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
-[2020.02.20-08.30.38:507][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
-[2020.02.20-08.30.38:523][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
-[2020.02.20-08.30.38:530][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
-[2020.02.20-08.30.38:620][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
-[2020.02.20-08.30.38:620][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
-[2020.02.20-08.30.38:620][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
-[2020.02.20-08.30.38:620][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
-[2020.02.20-08.30.38:620][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
-[2020.02.20-08.30.38:620][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
-[2020.02.20-08.30.38:620][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
-[2020.02.20-08.30.38:620][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
-[2020.02.20-08.30.38:620][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
-[2020.02.20-08.30.38:620][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
-[2020.02.20-08.30.38:620][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
-[2020.02.20-08.30.38:620][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
-[2020.02.20-08.30.38:620][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
-[2020.02.20-08.30.38:620][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
-[2020.02.20-08.30.38:620][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
-[2020.02.20-08.30.38:620][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
-[2020.02.20-08.30.38:620][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
-[2020.02.20-08.30.38:620][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
-[2020.02.20-08.30.38:622][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
-[2020.02.20-08.30.38:673][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
-[2020.02.20-08.30.38:673][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
-[2020.02.20-08.30.38:699][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
-[2020.02.20-08.30.38:699][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
-[2020.02.20-08.30.38:712][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
-[2020.02.20-08.30.38:725][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
-[2020.02.20-08.30.38:738][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
-[2020.02.20-08.30.38:751][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
-[2020.02.20-08.30.38:796][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
-[2020.02.20-08.30.38:796][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
-[2020.02.20-08.30.38:796][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.02.20-08.30.38:805][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2020.02.20-08.30.38:860][  0]LogShaderCompilers: Guid format shader working directory is -28 characters bigger than the processId version (E:/Unreal projects/Narcose/trunk/NouveauNarcose/Intermediate/Shaders/WorkingDirectory/16572/).
-[2020.02.20-08.30.38:860][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'E:/Temp/UnrealShaderWorkingDir/440ECCBB41637FD148FE938AC6BC13F4/'.
-[2020.02.20-08.30.38:862][  0]LogXGEController: Cleaning working directory: E:/Temp/UnrealXGEWorkingDir/
-[2020.02.20-08.30.38:863][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.02.20-08.30.38:863][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.02.20-08.30.38:863][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.02.20-08.30.39:428][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.02.20-08.30.39:487][  0]LogDerivedDataCache: Loaded boot cache 0.06s 71MB C:/Users/Jordan Benureau/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
-[2020.02.20-08.30.39:487][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Jordan Benureau/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
-[2020.02.20-08.30.39:487][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Unreal projects/Narcose/trunk/NouveauNarcose/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.02.20-08.30.39:487][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.02.20-08.30.39:487][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Unreal projects/Narcose/trunk/NouveauNarcose/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.02.20-08.30.39:487][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.02.20-08.30.39:501][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.02.20-08.30.39:501][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.02.20-08.30.39:501][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2020.02.20-08.30.39:514][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jordan Benureau/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.02.20-08.30.39:514][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.02.20-08.30.39:514][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.02.20-08.30.39:538][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2020.02.20-08.30.39:540][  0]LogSlate: Using FreeType 2.6.0
-[2020.02.20-08.30.39:540][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.02.20-08.30.39:634][  0]LogAssetRegistry: FAssetRegistry took 0.0358 seconds to start up
-[2020.02.20-08.30.39:994][  0]LogInit: Selected Device Profile: [Windows]
-[2020.02.20-08.30.40:140][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.02.20-08.30.40:140][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2020.02.20-08.30.40:140][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.02.20-08.30.40:140][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2020.02.20-08.30.40:140][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2020.02.20-08.30.40:152][  0]LogNetVersion: NouveauNarcose 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 1622446290)
-[2020.02.20-08.30.40:568][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.041665 seconds
-[2020.02.20-08.30.40:576][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
-[2020.02.20-08.30.40:576][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
-[2020.02.20-08.30.40:576][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.02.20-08.30.41:420][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.02.20-08.30.41:434][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.02.20-08.30.41:541][  0]SourceControl: Source control is disabled
-[2020.02.20-08.30.41:541][  0]SourceControl: Source control is disabled
-[2020.02.20-08.30.41:543][  0]SourceControl: Source control is disabled
-[2020.02.20-08.30.41:544][  0]SourceControl: Source control is disabled
-[2020.02.20-08.30.41:618][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.02.20-08.30.41:792][  0]LogOcInput: OculusInput pre-init called
-[2020.02.20-08.30.42:487][  0]LogEngine: Initializing Engine...
-[2020.02.20-08.30.42:488][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.02.20-08.30.42:489][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2020.02.20-08.30.42:709][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.02.20-08.30.42:725][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.02.20-08.30.42:779][  0]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2020.02.20-08.30.42:833][  0]LogInit: FAudioDevice initialized.
-[2020.02.20-08.30.42:833][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2020.02.20-08.30.42:891][  0]LogDerivedDataCache: Saved boot cache 0.06s 71MB C:/Users/Jordan Benureau/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
-[2020.02.20-08.30.42:904][  0]LogInit: Texture streaming: Enabled
-[2020.02.20-08.30.42:925][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.02.20-08.30.42:947][  0]LogInit: Transaction tracking system initialized
-[2020.02.20-08.30.42:973][  0]BlueprintLog: New page: Editor Load
-[2020.02.20-08.30.43:066][  0]LocalizationService: Localization service is disabled
-[2020.02.20-08.30.43:368][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal projects/Narcose/trunk/NouveauNarcose/Content/' took 0.02s
-[2020.02.20-08.30.43:368][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.02.20-08.30.43:369][  0]LogCook: Display: Mobile HDR setting 1
-[2020.02.20-08.30.43:549][  0]SourceControl: Source control is disabled
-[2020.02.20-08.30.43:549][  0]Cmd: MAP LOAD FILE="E:/Unreal projects/Narcose/trunk/NouveauNarcose/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.02.20-08.30.43:549][  0]LightingResults: New page: Lighting Build
-[2020.02.20-08.30.43:553][  0]MapCheck: New page: Map Check
-[2020.02.20-08.30.43:553][  0]LightingResults: New page: Lighting Build
-[2020.02.20-08.30.43:579][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
-[2020.02.20-08.30.43:795][  0]LogAIModule: Creating AISystem for world Minimal_Default
-[2020.02.20-08.30.43:801][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.02.20-08.30.43:829][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
-[2020.02.20-08.30.43:829][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.02.20-08.30.43:829][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,248ms to complete.
-[2020.02.20-08.30.43:829][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.280
-[2020.02.20-08.30.43:955][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.02.20-08.30.43:963][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.02.20-08.30.43:972][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.02.20-08.30.43:979][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.02.20-08.30.43:987][  0]LogCollectionManager: Loaded 0 collections in 0.002430 seconds
-[2020.02.20-08.30.44:004][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal projects/Narcose/trunk/NouveauNarcose/Saved/Collections/' took 0.01s
-[2020.02.20-08.30.44:004][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal projects/Narcose/trunk/NouveauNarcose/Content/Developers/JordanBenureau/Collections/' took 0.00s
-[2020.02.20-08.30.44:004][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal projects/Narcose/trunk/NouveauNarcose/Content/Collections/' took 0.00s
-[2020.02.20-08.30.44:004][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2020.02.20-08.30.44:014][  0]LogContentBrowser: Native class hierarchy populated in 0.0092 seconds. Added 2733 classes and 661 folders.
-[2020.02.20-08.30.44:021][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2020.02.20-08.30.44:022][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.20-08.30.44:023][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.20-08.30.44:024][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.20-08.30.44:024][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.20-08.30.44:025][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.20-08.30.44:025][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.20-08.30.44:026][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.20-08.30.44:026][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.20-08.30.44:027][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.20-08.30.44:028][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.20-08.30.44:028][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.20-08.30.44:029][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.20-08.30.44:029][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.20-08.30.44:030][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.20-08.30.44:030][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.20-08.30.44:031][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.20-08.30.44:032][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.20-08.30.44:032][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.20-08.30.44:033][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.20-08.30.44:033][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.20-08.30.44:034][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.20-08.30.44:035][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.20-08.30.44:035][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.20-08.30.44:036][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.20-08.30.44:037][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.20-08.30.44:037][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.20-08.30.44:066][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2020.02.20-08.30.44:129][  0]LogSlate: Took 0.000194 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.02.20-08.30.44:135][  0]LogSlate: Took 0.000281 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.02.20-08.30.44:143][  0]LogSlate: Took 0.000185 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.02.20-08.30.44:224][  0]LogRenderer: Reallocating scene render targets to support 772x448 Format 10 NumSamples 1 (Frame:1).
-[2020.02.20-08.30.44:378][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2020.02.20-08.30.44:378][  0]LogLoad: (Engine Initialization) Total time: 8.29 seconds
-[2020.02.20-08.30.44:378][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.02.20-08.30.44:418][  0]LogAssetRegistry: Asset discovery search completed in 4.8062 seconds
-[2020.02.20-08.30.44:422][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2020.02.20-08.30.44:422][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000060 seconds (updated 0 objects)
-[2020.02.20-08.30.44:423][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2020.02.20-08.30.44:536][  0]LogRenderer: Reallocating scene render targets to support 772x460 Format 10 NumSamples 1 (Frame:3).
-[2020.02.20-08.30.44:536][  0]LogSlate: Took 0.000178 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.02.20-08.30.50:236][657]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.02.20-08.30.58:334][576]LogSlate: Took 0.000201 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.02.20-08.30.58:680][576]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2020.02.20-08.30.58:697][576]LogAssetEditorManager: Opening Asset editor for World /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
-[2020.02.20-08.30.58:724][576]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
-[2020.02.20-08.30.58:725][576]Cmd: MAP LOAD FILE="E:/Unreal projects/Narcose/trunk/NouveauNarcose/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.02.20-08.30.58:726][576]LightingResults: New page: Lighting Build
-[2020.02.20-08.30.58:726][576]LoadErrors: New page: Loading map: FirstPersonExampleMap.umap
-[2020.02.20-08.30.58:727][576]MapCheck: New page: Map Check
-[2020.02.20-08.30.58:727][576]LightingResults: New page: Lighting Build
-[2020.02.20-08.30.58:754][576]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
-[2020.02.20-08.30.58:851][576]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.02.20-08.30.58:878][576]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
-[2020.02.20-08.30.58:906][576]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.02.20-08.30.58:907][576]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1,327ms to complete.
-[2020.02.20-08.30.58:907][576]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.183
-[2020.02.20-08.31.06:940][382]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap
-[2020.02.20-08.31.07:229][382]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 121 classes and 0 folders.
-[2020.02.20-08.31.07:995][382]LogSlate: Took 0.000249 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2020.02.20-08.31.08:063][383]LogSlate: Took 0.009368 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2020.02.20-08.31.13:710][729]LogSlate: Window 'FirstPersonExampleMap' being destroyed
-[2020.02.20-08.31.13:723][729]LogSlate: Window 'FirstPersonExampleMap' being destroyed
-[2020.02.20-08.31.18:236][188]LogAIModule: Creating AISystem for world blockout_proto
-[2020.02.20-08.31.18:241][188]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/blockout_proto.blockout_proto
-[2020.02.20-08.31.18:281][188]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
-[2020.02.20-08.31.18:282][188]Cmd: MAP LOAD FILE="E:/Unreal projects/Narcose/trunk/NouveauNarcose/Content/Maps/blockout_proto.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.02.20-08.31.18:282][188]LightingResults: New page: Lighting Build
-[2020.02.20-08.31.18:283][188]LoadErrors: New page: Loading map: blockout_proto.umap
-[2020.02.20-08.31.18:284][188]MapCheck: New page: Map Check
-[2020.02.20-08.31.18:284][188]LightingResults: New page: Lighting Build
-[2020.02.20-08.31.18:317][188]LogUObjectHash: Compacting FUObjectHashTables data took   2.53ms
-[2020.02.20-08.31.18:400][188]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.02.20-08.31.18:434][188]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
-[2020.02.20-08.31.18:462][188]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.02.20-08.31.18:464][188]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1,682ms to complete.
-[2020.02.20-08.31.18:464][188]LogFileHelpers: Loading map 'blockout_proto' took 0.182
-[2020.02.20-08.31.19:936][342]LogTemp: Repeating last play command: Selected Viewport
-[2020.02.20-08.31.19:953][342]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/blockout_proto.blockout_proto:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/blockout_proto.blockout_proto:PersistentLevel.blockout_proto' with GeneratedClass '/Game/Maps/blockout_proto.blockout_proto_C' with ClassGeneratedBy '/Game/Maps/blockout_proto.blockout_proto:PersistentLevel.blockout_proto'
-[2020.02.20-08.31.19:954][342]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.02.20-08.31.19:954][342]PIE: New page: PIE session: blockout_proto (20 févr. 2020 10:31:19)
-[2020.02.20-08.31.19:967][342]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_blockout_proto
-[2020.02.20-08.31.19:970][342]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002240s)
-[2020.02.20-08.31.19:970][342]LogAIModule: Creating AISystem for world blockout_proto
-[2020.02.20-08.31.19:970][342]LogPlayLevel: PIE: World Init took: (0.000533s)
-[2020.02.20-08.31.19:970][342]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/blockout_proto.blockout_proto to /Game/Maps/UEDPIE_0_blockout_proto.blockout_proto (0.003234s)
-[2020.02.20-08.31.20:000][342]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
-[2020.02.20-08.31.20:034][342]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2020.02.20-08.31.20:050][342]LogInit: FAudioDevice initialized.
-[2020.02.20-08.31.20:092][342]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2020.02.20-08.31.20:094][342]LogWorld: Bringing World /Game/Maps/UEDPIE_0_blockout_proto.blockout_proto up for play (max tick rate 0) at 2020.02.20-09.31.20
-[2020.02.20-08.31.20:094][342]LogWorld: Bringing up level for play took: 0.000812
-[2020.02.20-08.31.20:109][342]LogBlueprintActionDatabase: Requesting refresh due to module change: Voice (loaded)
-[2020.02.20-08.31.20:111][342]LogBlueprintActionDatabase: Requesting refresh due to module change: MovieSceneCapture (loaded)
-[2020.02.20-08.31.20:112][342]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
-[2020.02.20-08.31.20:113][342]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_blockout_proto 1,077
-[2020.02.20-08.31.20:113][342]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/blockout_proto.blockout_proto:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/blockout_proto.blockout_proto:PersistentLevel.blockout_proto' with GeneratedClass '/Game/Maps/blockout_proto.blockout_proto_C' with ClassGeneratedBy '/Game/Maps/blockout_proto.blockout_proto:PersistentLevel.blockout_proto'
-[2020.02.20-08.31.28:075][150]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/blockout_proto.blockout_proto:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/blockout_proto.blockout_proto:PersistentLevel.blockout_proto' with GeneratedClass '/Game/Maps/blockout_proto.blockout_proto_C' with ClassGeneratedBy '/Game/Maps/blockout_proto.blockout_proto:PersistentLevel.blockout_proto'
-[2020.02.20-08.31.28:075][150]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.02.20-08.31.28:108][150]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.02.20-08.31.28:108][150]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/blockout_proto.blockout_proto:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/blockout_proto.blockout_proto:PersistentLevel.blockout_proto' with GeneratedClass '/Game/Maps/blockout_proto.blockout_proto_C' with ClassGeneratedBy '/Game/Maps/blockout_proto.blockout_proto:PersistentLevel.blockout_proto'
-[2020.02.20-08.31.28:152][150]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.02.20-08.31.28:192][150]LogUObjectHash: Compacting FUObjectHashTables data took   4.92ms
-[2020.02.20-08.31.28:216][151]LogPlayLevel: Display: Destroying online subsystem :Context_5
-[2020.02.20-08.31.34:556][881]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.20-08.33.03:412][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.02.20-08.33.03:412][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.02.20-08.33.03:412][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [E:/Unreal projects/Narcose/trunk/NouveauNarcose/Saved/Config/Windows/Engine.ini]
+[2020.02.20-08.33.03:412][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.02.20-08.33.03:412][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2020.02.20-08.33.03:412][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2020.02.20-08.33.03:412][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [E:/Unreal projects/Narcose/trunk/NouveauNarcose/Saved/Config/Windows/Engine.ini]
+[2020.02.20-08.33.03:413][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/Unreal projects/Narcose/trunk/NouveauNarcose/Saved/Config/Windows/Engine.ini]
+[2020.02.20-08.33.03:413][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.02.20-08.33.03:413][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.02.20-08.33.03:413][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.02.20-08.33.03:413][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.02.20-08.33.03:413][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.02.20-08.33.03:413][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.02.20-08.33.03:413][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.02.20-08.33.03:413][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.02.20-08.33.03:413][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.02.20-08.33.03:413][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.02.20-08.33.03:413][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.02.20-08.33.03:413][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.02.20-08.33.03:413][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.02.20-08.33.03:413][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [E:/Unreal projects/Narcose/trunk/NouveauNarcose/Saved/Config/Windows/Engine.ini]
+[2020.02.20-08.33.03:413][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.02.20-08.33.03:413][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.02.20-08.33.03:413][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.02.20-08.33.03:413][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.02.20-08.33.03:413][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.02.20-08.33.03:413][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.02.20-08.33.03:413][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2020.02.20-08.33.03:413][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.02.20-08.33.03:413][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.02.20-08.33.03:413][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.02.20-08.33.03:413][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.02.20-08.33.03:413][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.02.20-08.33.03:413][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.02.20-08.33.03:413][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [E:/Unreal projects/Narcose/trunk/NouveauNarcose/Saved/Config/Windows/Engine.ini]
+[2020.02.20-08.33.03:413][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [E:/Unreal projects/Narcose/trunk/NouveauNarcose/Saved/Config/Windows/Engine.ini]
+[2020.02.20-08.33.03:415][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/Unreal projects/Narcose/trunk/NouveauNarcose/Saved/Config/Windows/Scalability.ini]
+[2020.02.20-08.33.03:415][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.02.20-08.33.03:415][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.02.20-08.33.03:415][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/Unreal projects/Narcose/trunk/NouveauNarcose/Saved/Config/Windows/Scalability.ini]
+[2020.02.20-08.33.03:415][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.02.20-08.33.03:415][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/Unreal projects/Narcose/trunk/NouveauNarcose/Saved/Config/Windows/Scalability.ini]
+[2020.02.20-08.33.03:415][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.02.20-08.33.03:415][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.02.20-08.33.03:415][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.02.20-08.33.03:415][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.02.20-08.33.03:415][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.02.20-08.33.03:415][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.02.20-08.33.03:415][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.02.20-08.33.03:415][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.02.20-08.33.03:415][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.02.20-08.33.03:415][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.02.20-08.33.03:415][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.02.20-08.33.03:415][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.02.20-08.33.03:415][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.02.20-08.33.03:415][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.02.20-08.33.03:415][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.02.20-08.33.03:415][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.02.20-08.33.03:416][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.02.20-08.33.03:416][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.02.20-08.33.03:416][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/Unreal projects/Narcose/trunk/NouveauNarcose/Saved/Config/Windows/Scalability.ini]
+[2020.02.20-08.33.03:416][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.02.20-08.33.03:416][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.02.20-08.33.03:416][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.02.20-08.33.03:416][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.02.20-08.33.03:416][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.02.20-08.33.03:416][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.02.20-08.33.03:416][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.02.20-08.33.03:416][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.02.20-08.33.03:416][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.02.20-08.33.03:416][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.02.20-08.33.03:416][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.02.20-08.33.03:416][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.02.20-08.33.03:416][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.02.20-08.33.03:416][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.02.20-08.33.03:416][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.02.20-08.33.03:416][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.02.20-08.33.03:416][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.02.20-08.33.03:416][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.02.20-08.33.03:416][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.02.20-08.33.03:416][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.02.20-08.33.03:416][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.02.20-08.33.03:416][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.02.20-08.33.03:416][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.02.20-08.33.03:416][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.02.20-08.33.03:416][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.02.20-08.33.03:416][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.02.20-08.33.03:416][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.02.20-08.33.03:416][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.02.20-08.33.03:416][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.02.20-08.33.03:416][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.02.20-08.33.03:416][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/Unreal projects/Narcose/trunk/NouveauNarcose/Saved/Config/Windows/Scalability.ini]
+[2020.02.20-08.33.03:416][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.02.20-08.33.03:416][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.02.20-08.33.03:416][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.02.20-08.33.03:416][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.02.20-08.33.03:416][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.02.20-08.33.03:416][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.02.20-08.33.03:416][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.02.20-08.33.03:416][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.02.20-08.33.03:416][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/Unreal projects/Narcose/trunk/NouveauNarcose/Saved/Config/Windows/Scalability.ini]
+[2020.02.20-08.33.03:416][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.02.20-08.33.03:416][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.02.20-08.33.03:416][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.02.20-08.33.03:416][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.02.20-08.33.03:416][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.02.20-08.33.03:416][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.02.20-08.33.03:416][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.02.20-08.33.03:416][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.02.20-08.33.03:416][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.02.20-08.33.03:416][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.02.20-08.33.03:416][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.02.20-08.33.03:416][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.02.20-08.33.03:416][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.02.20-08.33.03:416][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/Unreal projects/Narcose/trunk/NouveauNarcose/Saved/Config/Windows/Scalability.ini]
+[2020.02.20-08.33.03:416][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.02.20-08.33.03:416][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.02.20-08.33.03:416][  0]LogInit: Selected Device Profile: [Windows]
+[2020.02.20-08.33.03:416][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.02.20-08.33.03:431][  0]LogHAL: Display: Platform has ~ 8 GB [8459030528 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.02.20-08.33.03:431][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2020.02.20-08.33.03:431][  0]LogInit: Going up to parent DeviceProfile []
+[2020.02.20-08.33.03:431][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/Unreal projects/Narcose/trunk/NouveauNarcose/Saved/Config/Windows/Scalability.ini]
+[2020.02.20-08.33.03:431][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.02.20-08.33.03:431][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.02.20-08.33.03:431][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/Unreal projects/Narcose/trunk/NouveauNarcose/Saved/Config/Windows/Scalability.ini]
+[2020.02.20-08.33.03:431][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.02.20-08.33.03:431][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/Unreal projects/Narcose/trunk/NouveauNarcose/Saved/Config/Windows/Scalability.ini]
+[2020.02.20-08.33.03:431][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.02.20-08.33.03:431][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.02.20-08.33.03:431][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.02.20-08.33.03:431][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.02.20-08.33.03:431][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.02.20-08.33.03:431][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.02.20-08.33.03:431][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.02.20-08.33.03:431][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.02.20-08.33.03:431][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.02.20-08.33.03:431][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.02.20-08.33.03:431][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.02.20-08.33.03:431][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.02.20-08.33.03:431][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.02.20-08.33.03:431][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.02.20-08.33.03:431][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.02.20-08.33.03:431][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.02.20-08.33.03:432][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.02.20-08.33.03:432][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.02.20-08.33.03:432][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/Unreal projects/Narcose/trunk/NouveauNarcose/Saved/Config/Windows/Scalability.ini]
+[2020.02.20-08.33.03:432][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.02.20-08.33.03:432][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.02.20-08.33.03:432][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.02.20-08.33.03:432][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.02.20-08.33.03:432][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.02.20-08.33.03:432][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.02.20-08.33.03:432][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.02.20-08.33.03:432][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.02.20-08.33.03:432][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.02.20-08.33.03:432][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.02.20-08.33.03:432][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.02.20-08.33.03:432][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.02.20-08.33.03:432][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.02.20-08.33.03:432][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.02.20-08.33.03:432][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.02.20-08.33.03:432][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.02.20-08.33.03:432][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.02.20-08.33.03:432][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.02.20-08.33.03:432][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.02.20-08.33.03:432][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.02.20-08.33.03:432][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.02.20-08.33.03:432][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.02.20-08.33.03:432][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.02.20-08.33.03:432][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.02.20-08.33.03:432][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.02.20-08.33.03:432][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.02.20-08.33.03:432][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.02.20-08.33.03:432][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.02.20-08.33.03:432][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.02.20-08.33.03:432][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.02.20-08.33.03:432][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/Unreal projects/Narcose/trunk/NouveauNarcose/Saved/Config/Windows/Scalability.ini]
+[2020.02.20-08.33.03:432][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.02.20-08.33.03:432][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.02.20-08.33.03:432][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.02.20-08.33.03:432][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.02.20-08.33.03:432][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.02.20-08.33.03:432][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.02.20-08.33.03:432][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.02.20-08.33.03:432][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.02.20-08.33.03:432][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/Unreal projects/Narcose/trunk/NouveauNarcose/Saved/Config/Windows/Scalability.ini]
+[2020.02.20-08.33.03:432][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.02.20-08.33.03:432][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.02.20-08.33.03:432][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.02.20-08.33.03:432][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.02.20-08.33.03:432][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.02.20-08.33.03:432][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.02.20-08.33.03:432][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.02.20-08.33.03:432][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.02.20-08.33.03:432][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.02.20-08.33.03:432][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.02.20-08.33.03:432][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.02.20-08.33.03:432][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.02.20-08.33.03:432][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.02.20-08.33.03:432][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/Unreal projects/Narcose/trunk/NouveauNarcose/Saved/Config/Windows/Scalability.ini]
+[2020.02.20-08.33.03:432][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.02.20-08.33.03:432][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.02.20-08.33.03:432][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.02.20-08.33.03:433][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.02.20-08.33.03:433][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.02.20-08.33.03:433][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [E:/Unreal projects/Narcose/trunk/NouveauNarcose/Saved/Config/Windows/Engine.ini]
+[2020.02.20-08.33.03:433][  0]LogInit: Computer: DESKTOP-81G4TC1
+[2020.02.20-08.33.03:433][  0]LogInit: User: JordanBenureau
+[2020.02.20-08.33.03:433][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.02.20-08.33.03:433][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.02.20-08.33.03:433][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2020.02.20-08.33.03:433][  0]LogMemory: Platform Memory Stats for Windows
+[2020.02.20-08.33.03:433][  0]LogMemory: Process Physical Memory: 98.33 MB used, 98.33 MB peak
+[2020.02.20-08.33.03:433][  0]LogMemory: Process Virtual Memory: 92.39 MB used, 92.39 MB peak
+[2020.02.20-08.33.03:433][  0]LogMemory: Physical Memory: 4797.82 MB used,  3269.34 MB free, 8067.16 MB total
+[2020.02.20-08.33.03:433][  0]LogMemory: Virtual Memory: 4633.46 MB used,  134213096.00 MB free, 134217728.00 MB total
+[2020.02.20-08.33.03:456][  0]LogInit: Using OS detected language (fr-FR).
+[2020.02.20-08.33.03:456][  0]LogInit: Using OS detected locale (fr-FR).
+[2020.02.20-08.33.03:457][  0]LogTextLocalizationManager: No specific localization for 'fr-FR' exists, so the 'fr' localization will be used.
+[2020.02.20-08.33.03:457][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/fr/Editor.locres' could not be opened for reading!
+[2020.02.20-08.33.03:457][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/fr/EditorTutorials.locres' could not be opened for reading!
+[2020.02.20-08.33.03:457][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/fr/Keywords.locres' could not be opened for reading!
+[2020.02.20-08.33.03:457][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/fr/Category.locres' could not be opened for reading!
+[2020.02.20-08.33.03:458][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/fr/ToolTips.locres' could not be opened for reading!
+[2020.02.20-08.33.03:458][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/fr/PropertyNames.locres' could not be opened for reading!
+[2020.02.20-08.33.03:458][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/fr/Engine.locres' could not be opened for reading!
+[2020.02.20-08.33.03:459][  0]LogInit: Setting process to per monitor DPI aware
+[2020.02.20-08.33.03:489][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.02.20-08.33.03:489][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.02.20-08.33.03:685][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.02.20-08.33.03:685][  0]LogD3D11RHI: D3D11 adapters:
+[2020.02.20-08.33.03:749][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
+[2020.02.20-08.33.03:749][  0]LogD3D11RHI:       1979/0/4033 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.02.20-08.33.03:760][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2020.02.20-08.33.03:760][  0]LogD3D11RHI:       128/0/4033 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.02.20-08.33.03:763][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.02.20-08.33.03:763][  0]LogD3D11RHI:       0/0/4033 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.02.20-08.33.03:763][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.02.20-08.33.03:797][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.02.20-08.33.03:797][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8d (for the marketing name, search the web for "GPU Device Id")
+[2020.02.20-08.33.03:797][  0]LogWindows: EnumDisplayDevices:
+[2020.02.20-08.33.03:797][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2020.02.20-08.33.03:798][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2020.02.20-08.33.03:798][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2020.02.20-08.33.03:798][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2020.02.20-08.33.03:798][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
+[2020.02.20-08.33.03:798][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2020.02.20-08.33.03:798][  0]LogD3D11RHI:      Driver Date: Unknown
+[2020.02.20-08.33.03:798][  0]LogRHI: Texture pool is 1385 MB (70% of 1979 MB)
+[2020.02.20-08.33.03:842][  0]LogD3D11RHI: Async texture creation enabled
+[2020.02.20-08.33.03:845][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.02.20-08.33.03:845][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.02.20-08.33.03:845][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.02.20-08.33.03:853][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.02.20-08.33.04:136][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2020.02.20-08.33.04:151][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2020.02.20-08.33.04:166][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2020.02.20-08.33.04:182][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2020.02.20-08.33.04:197][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2020.02.20-08.33.04:213][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2020.02.20-08.33.04:229][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2020.02.20-08.33.04:244][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2020.02.20-08.33.04:251][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2020.02.20-08.33.04:338][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2020.02.20-08.33.04:339][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2020.02.20-08.33.04:339][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2020.02.20-08.33.04:339][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2020.02.20-08.33.04:339][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2020.02.20-08.33.04:339][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2020.02.20-08.33.04:339][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2020.02.20-08.33.04:339][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2020.02.20-08.33.04:339][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2020.02.20-08.33.04:339][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2020.02.20-08.33.04:339][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2020.02.20-08.33.04:339][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2020.02.20-08.33.04:339][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2020.02.20-08.33.04:339][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2020.02.20-08.33.04:339][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2020.02.20-08.33.04:339][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2020.02.20-08.33.04:339][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2020.02.20-08.33.04:339][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2020.02.20-08.33.04:341][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2020.02.20-08.33.04:395][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2020.02.20-08.33.04:395][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2020.02.20-08.33.04:422][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2020.02.20-08.33.04:422][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2020.02.20-08.33.04:435][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2020.02.20-08.33.04:449][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2020.02.20-08.33.04:463][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2020.02.20-08.33.04:477][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2020.02.20-08.33.04:526][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2020.02.20-08.33.04:526][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2020.02.20-08.33.04:526][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.02.20-08.33.04:535][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.02.20-08.33.04:592][  0]LogShaderCompilers: Guid format shader working directory is -28 characters bigger than the processId version (E:/Unreal projects/Narcose/trunk/NouveauNarcose/Intermediate/Shaders/WorkingDirectory/15868/).
+[2020.02.20-08.33.04:592][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'E:/Temp/UnrealShaderWorkingDir/3ABB40FA4C799BBAE38C79B109EBC945/'.
+[2020.02.20-08.33.04:594][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.02.20-08.33.04:595][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.02.20-08.33.04:595][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.02.20-08.33.05:166][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.02.20-08.33.05:220][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/Jordan Benureau/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2020.02.20-08.33.05:220][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Jordan Benureau/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2020.02.20-08.33.05:220][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Unreal projects/Narcose/trunk/NouveauNarcose/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.02.20-08.33.05:220][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.02.20-08.33.05:220][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Unreal projects/Narcose/trunk/NouveauNarcose/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.02.20-08.33.05:220][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.02.20-08.33.05:233][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.02.20-08.33.05:233][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.02.20-08.33.05:233][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.02.20-08.33.05:247][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jordan Benureau/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.02.20-08.33.05:247][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.02.20-08.33.05:247][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.02.20-08.33.05:273][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.02.20-08.33.05:274][  0]LogSlate: Using FreeType 2.6.0
+[2020.02.20-08.33.05:275][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.02.20-08.33.05:361][  0]LogAssetRegistry: FAssetRegistry took 0.0343 seconds to start up
+[2020.02.20-08.33.05:713][  0]LogInit: Selected Device Profile: [Windows]
+[2020.02.20-08.33.05:858][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.02.20-08.33.05:858][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.02.20-08.33.05:858][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.02.20-08.33.05:858][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.02.20-08.33.05:858][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.02.20-08.33.05:870][  0]LogNetVersion: NouveauNarcose 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 1622446290)
+[2020.02.20-08.33.06:297][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.045900 seconds
+[2020.02.20-08.33.06:304][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2020.02.20-08.33.06:304][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2020.02.20-08.33.06:304][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.02.20-08.33.07:151][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.02.20-08.33.07:165][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.02.20-08.33.07:271][  0]SourceControl: Source control is disabled
+[2020.02.20-08.33.07:271][  0]SourceControl: Source control is disabled
+[2020.02.20-08.33.07:272][  0]SourceControl: Source control is disabled
+[2020.02.20-08.33.07:273][  0]SourceControl: Source control is disabled
+[2020.02.20-08.33.07:351][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.02.20-08.33.07:524][  0]LogOcInput: OculusInput pre-init called
+[2020.02.20-08.33.08:198][  0]LogEngine: Initializing Engine...
+[2020.02.20-08.33.08:198][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.02.20-08.33.08:200][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.02.20-08.33.08:419][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.02.20-08.33.08:436][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.02.20-08.33.08:491][  0]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.02.20-08.33.08:541][  0]LogInit: FAudioDevice initialized.
+[2020.02.20-08.33.08:541][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.02.20-08.33.08:608][  0]LogDerivedDataCache: Saved boot cache 0.07s 71MB C:/Users/Jordan Benureau/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2020.02.20-08.33.08:621][  0]LogInit: Texture streaming: Enabled
+[2020.02.20-08.33.08:641][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.02.20-08.33.08:663][  0]LogInit: Transaction tracking system initialized
+[2020.02.20-08.33.08:690][  0]BlueprintLog: New page: Editor Load
+[2020.02.20-08.33.08:782][  0]LocalizationService: Localization service is disabled
+[2020.02.20-08.33.09:087][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal projects/Narcose/trunk/NouveauNarcose/Content/' took 0.02s
+[2020.02.20-08.33.09:087][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.02.20-08.33.09:087][  0]LogCook: Display: Mobile HDR setting 1
+[2020.02.20-08.33.09:265][  0]SourceControl: Source control is disabled
+[2020.02.20-08.33.09:265][  0]Cmd: MAP LOAD FILE="E:/Unreal projects/Narcose/trunk/NouveauNarcose/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.02.20-08.33.09:266][  0]LightingResults: New page: Lighting Build
+[2020.02.20-08.33.09:269][  0]MapCheck: New page: Map Check
+[2020.02.20-08.33.09:269][  0]LightingResults: New page: Lighting Build
+[2020.02.20-08.33.09:294][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2020.02.20-08.33.09:513][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.02.20-08.33.09:522][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.02.20-08.33.09:548][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2020.02.20-08.33.09:548][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.02.20-08.33.09:548][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,251ms to complete.
+[2020.02.20-08.33.09:548][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.283
+[2020.02.20-08.33.09:682][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.20-08.33.09:691][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.20-08.33.09:700][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.20-08.33.09:708][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.20-08.33.09:715][  0]LogCollectionManager: Loaded 0 collections in 0.002111 seconds
+[2020.02.20-08.33.09:745][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal projects/Narcose/trunk/NouveauNarcose/Saved/Collections/' took 0.01s
+[2020.02.20-08.33.09:745][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal projects/Narcose/trunk/NouveauNarcose/Content/Developers/JordanBenureau/Collections/' took 0.00s
+[2020.02.20-08.33.09:745][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal projects/Narcose/trunk/NouveauNarcose/Content/Collections/' took 0.01s
+[2020.02.20-08.33.09:745][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2020.02.20-08.33.09:753][  0]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 2733 classes and 661 folders.
+[2020.02.20-08.33.09:761][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.02.20-08.33.09:761][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.20-08.33.09:763][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.20-08.33.09:764][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.20-08.33.09:764][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.20-08.33.09:765][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.20-08.33.09:765][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.20-08.33.09:766][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.20-08.33.09:766][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.20-08.33.09:767][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.20-08.33.09:767][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.20-08.33.09:768][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.20-08.33.09:768][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.20-08.33.09:768][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.20-08.33.09:770][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.20-08.33.09:770][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.20-08.33.09:770][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.20-08.33.09:772][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.20-08.33.09:772][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.20-08.33.09:773][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.20-08.33.09:773][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.20-08.33.09:774][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.20-08.33.09:775][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.20-08.33.09:775][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.20-08.33.09:776][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.20-08.33.09:776][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.20-08.33.09:776][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.20-08.33.09:804][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.02.20-08.33.09:867][  0]LogSlate: Took 0.000206 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.02.20-08.33.09:876][  0]LogSlate: Took 0.000149 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.02.20-08.33.09:880][  0]LogSlate: Took 0.000171 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.02.20-08.33.09:959][  0]LogRenderer: Reallocating scene render targets to support 772x448 Format 10 NumSamples 1 (Frame:1).
+[2020.02.20-08.33.10:111][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.02.20-08.33.10:111][  0]LogLoad: (Engine Initialization) Total time: 8.32 seconds
+[2020.02.20-08.33.10:111][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.02.20-08.33.10:149][  0]LogAssetRegistry: Asset discovery search completed in 4.8102 seconds
+[2020.02.20-08.33.10:154][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2020.02.20-08.33.10:154][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000067 seconds (updated 0 objects)
+[2020.02.20-08.33.10:155][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.02.20-08.33.10:217][  0]LogRenderer: Reallocating scene render targets to support 772x460 Format 10 NumSamples 1 (Frame:3).
+[2020.02.20-08.33.10:217][  0]LogSlate: Took 0.000170 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.02.20-08.33.55:614][346]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.20-08.33.59:466][789]LogSlate: Took 0.000176 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.02.20-08.33.59:533][789]LogAIModule: Creating AISystem for world blockout_proto
+[2020.02.20-08.33.59:539][789]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/blockout_proto.blockout_proto
+[2020.02.20-08.33.59:565][789]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2020.02.20-08.33.59:566][789]Cmd: MAP LOAD FILE="E:/Unreal projects/Narcose/trunk/NouveauNarcose/Content/Maps/blockout_proto.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.02.20-08.33.59:566][789]LightingResults: New page: Lighting Build
+[2020.02.20-08.33.59:567][789]LoadErrors: New page: Loading map: blockout_proto.umap
+[2020.02.20-08.33.59:568][789]MapCheck: New page: Map Check
+[2020.02.20-08.33.59:568][789]LightingResults: New page: Lighting Build
+[2020.02.20-08.33.59:596][789]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2020.02.20-08.33.59:647][789]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.02.20-08.33.59:674][789]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2020.02.20-08.33.59:703][789]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.02.20-08.33.59:703][789]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,197ms to complete.
+[2020.02.20-08.33.59:704][789]LogFileHelpers: Loading map 'blockout_proto' took 0.138
