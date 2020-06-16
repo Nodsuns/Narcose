@@ -3182,3 +3182,368 @@ Exception rethrown at [0]:
 [2020.06.16-15.35.11:790][543]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
 [2020.06.16-15.35.53:511][641]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (41.720 sec). This should never happen. Something is wrong with the timer delegate!
 [2020.06.16-15.37.55:072][556]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.16-15.40.35:483][112]MapCheck: New page: Map Check
+[2020.06.16-15.40.35:524][112]Cmd: MAP REBUILD ALLVISIBLE
+[2020.06.16-15.40.35:524][112]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2020.06.16-15.40.36:220][112]LogUObjectHash: Compacting FUObjectHashTables data took   6.58ms
+[2020.06.16-15.40.36:694][112]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.06.16-15.40.36:706][112]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.06.16-15.40.36:718][112]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.06.16-15.40.36:772][112]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.06.16-15.40.36:786][112]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.06.16-15.40.36:800][112]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.06.16-15.40.36:842][112]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.06.16-15.40.36:853][112]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.06.16-15.40.36:863][112]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.06.16-15.40.38:894][112]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.06.16-15.40.38:894][112]TextureStreamingBuild: Display: Compiling optional shaders took 2.205 seconds.
+[2020.06.16-15.40.38:914][112]LogLevel: Display: Export Material TexCoord Scales took 0.020 seconds.
+[2020.06.16-15.40.39:769][112]TextureStreamingBuild: Display: Build Texture Streaming took 0.854 seconds.
+[2020.06.16-15.40.39:924][112]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2020.06.16-15.40.39:924][112]LightingResults: New page: Lighting Build - 16 juin 2020 19:40:39
+[2020.06.16-15.40.39:962][112]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2020.06.16-15.40.39:967][112]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2020.06.16-15.40.39:967][112]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2020.06.16-15.40.39:968][112]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2020.06.16-15.40.39:970][112]LogSwarmInterface: [TryOpenConnection] Local Process ID is 2428
+[2020.06.16-15.40.44:703][112]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2020.06.16-15.40.44:703][112]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2020.06.16-15.40.44:703][112]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2020.06.16-15.40.44:703][112]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2020.06.16-15.40.44:703][112]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2020.06.16-15.40.45:021][112]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2020.06.16-15.40.45:021][112]MapCheck: New page: GameScene - 16 juin 2020 19:40:45
+[2020.06.16-15.40.45:021][112]MapCheck: Error: WorldSettings Maps need lighting rebuilt 
+[2020.06.16-15.40.45:031][112]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 9,129ms to complete.
+[2020.06.16-15.40.45:053][112]LogEditorBuildUtils: Build time 0:09
+[2020.06.16-15.40.45:271][113]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer cliff_01_mti, compiling. 
+[2020.06.16-15.40.45:321][113]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer cliff_01_mti, compiling. 
+[2020.06.16-15.40.46:797][125]LogUObjectHash: Compacting FUObjectHashTables data took   5.12ms
+[2020.06.16-15.40.51:597][259]LogSlate: Window 'Message Log' being destroyed
+[2020.06.16-15.40.51:625][259]LogSlate: Window 'Message Log' being destroyed
+[2020.06.16-15.42.32:337][773]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.42.32:337][773]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.32:673][774]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.42.32:673][774]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.33:028][775]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.42.33:028][775]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.33:374][776]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.42.33:374][776]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.33:374][776]LightingResults: Warning: coral_disk_sm Object has overlapping UVs.
+[2020.06.16-15.42.33:374][776]LightingResults: coral_disk_sm Lightmap UV are overlapping by 83.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.33:374][776]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.42.33:374][776]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.33:708][777]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.42.33:708][777]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.35:047][781]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.42.35:047][781]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.35:047][781]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.42.35:047][781]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.35:737][783]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.42.35:737][783]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.35:737][783]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.42.35:737][783]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.36:113][784]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.42.36:113][784]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.36:434][785]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.42.36:434][785]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.36:767][786]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.42.36:767][786]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.37:119][787]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.42.37:119][787]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.37:446][788]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.42.37:446][788]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.37:446][788]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.42.37:446][788]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.37:781][789]LightingResults: Warning: coral_disk_sm Object has overlapping UVs.
+[2020.06.16-15.42.37:781][789]LightingResults: coral_disk_sm Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.38:189][790]LightingResults: Warning: coral_disk_sm Object has overlapping UVs.
+[2020.06.16-15.42.38:189][790]LightingResults: coral_disk_sm Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.38:189][790]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.42.38:190][790]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.38:839][792]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.42.38:839][792]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.39:181][793]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.42.39:181][793]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.39:523][794]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.42.39:523][794]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.39:848][795]LightingResults: Warning: coral_disk_sm Object has overlapping UVs.
+[2020.06.16-15.42.39:848][795]LightingResults: coral_disk_sm Lightmap UV are overlapping by 83.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.39:848][795]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.42.39:848][795]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.40:187][796]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.42.40:187][796]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.40:541][797]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.42.40:541][797]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.40:541][797]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.42.40:541][797]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.40:879][798]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.42.40:879][798]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.41:217][799]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.42.41:217][799]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.41:217][799]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.42.41:217][799]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.41:551][800]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.42.41:551][800]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.41:888][801]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.42.41:888][801]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.41:888][801]LightingResults: Warning: coral_disk_sm Object has overlapping UVs.
+[2020.06.16-15.42.41:888][801]LightingResults: coral_disk_sm Lightmap UV are overlapping by 83.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.42:232][802]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.42.42:232][802]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.42:232][802]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.42.42:232][802]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.42:232][802]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.42.42:232][802]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.42:579][803]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.42.42:579][803]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.42:579][803]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.42.42:579][803]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.42:579][803]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.42.42:579][803]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.42:912][804]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.42.42:912][804]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.42:912][804]LightingResults: Warning: coral_disk_sm Object has overlapping UVs.
+[2020.06.16-15.42.42:912][804]LightingResults: coral_disk_sm Lightmap UV are overlapping by 83.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.43:256][805]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.42.43:256][805]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.43:256][805]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.42.43:256][805]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.43:256][805]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.42.43:256][805]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.43:699][806]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.42.43:699][806]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.43:699][806]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.42.43:699][806]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.44:335][808]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.42.44:335][808]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.44:698][809]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.42.44:698][809]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.44:698][809]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.42.44:698][809]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.45:008][810]LightingResults: Warning: coral_disk_sm Object has overlapping UVs.
+[2020.06.16-15.42.45:008][810]LightingResults: coral_disk_sm Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.45:008][810]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.42.45:008][810]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.45:008][810]LightingResults: Warning: coral_disk_sm Object has overlapping UVs.
+[2020.06.16-15.42.45:008][810]LightingResults: coral_disk_sm Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.45:008][810]LightingResults: Warning: coral_disk_sm Object has overlapping UVs.
+[2020.06.16-15.42.45:008][810]LightingResults: coral_disk_sm Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.45:344][811]LightingResults: Warning: coral_disk_sm Object has overlapping UVs.
+[2020.06.16-15.42.45:344][811]LightingResults: coral_disk_sm Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.45:766][812]LightingResults: Warning: coral_disk_sm Object has overlapping UVs.
+[2020.06.16-15.42.45:766][812]LightingResults: coral_disk_sm Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.46:739][815]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.42.46:740][815]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.46:740][815]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.42.46:740][815]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.47:050][816]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.42.47:050][816]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.47:050][816]LightingResults: Warning: coral_disk_sm Object has overlapping UVs.
+[2020.06.16-15.42.47:050][816]LightingResults: coral_disk_sm Lightmap UV are overlapping by 83.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.47:050][816]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.42.47:050][816]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.47:402][817]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.42.47:402][817]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.47:732][818]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.42.47:732][818]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.48:072][819]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.42.48:072][819]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.48:072][819]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.42.48:072][819]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.48:738][821]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.42.48:738][821]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.49:076][822]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.42.49:076][822]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.49:076][822]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.42.49:076][822]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.49:413][823]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.42.49:413][823]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.49:779][824]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.42.49:779][824]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.50:097][825]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.42.50:097][825]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.50:097][825]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.42.50:097][825]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.50:439][826]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.42.50:440][826]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.50:768][827]LightingResults: Warning: coral_disk_sm Object has overlapping UVs.
+[2020.06.16-15.42.50:768][827]LightingResults: coral_disk_sm Lightmap UV are overlapping by 83.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.50:768][827]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.42.50:768][827]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.50:768][827]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.42.50:768][827]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.51:115][828]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.42.51:115][828]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.51:452][829]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.42.51:452][829]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.51:452][829]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.42.51:452][829]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.51:452][829]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.42.51:452][829]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.51:803][830]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.42.51:803][830]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.52:139][831]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.42.52:139][831]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.52:839][833]LightingResults: Warning: coral_disk_sm Object has overlapping UVs.
+[2020.06.16-15.42.52:839][833]LightingResults: coral_disk_sm Lightmap UV are overlapping by 83.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.53:170][834]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.42.53:170][834]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.54:526][838]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.42.54:526][838]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.42.59:297][852]LightingResults: Warning: coral_disk_sm Object has overlapping UVs.
+[2020.06.16-15.42.59:297][852]LightingResults: coral_disk_sm Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.00:305][855]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.43.00:305][855]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.01:312][858]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.43.01:312][858]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.01:659][859]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.43.01:659][859]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.01:659][859]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.43.01:659][859]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.01:990][860]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.43.01:990][860]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.02:671][862]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.43.02:671][862]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.04:027][866]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.43.04:027][866]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.05:030][869]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.43.05:030][869]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.07:375][876]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.43.07:375][876]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.07:717][877]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.43.07:717][877]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.08:049][878]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.43.08:049][878]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.08:748][880]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.43.08:748][880]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.10:058][884]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.43.10:058][884]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.11:752][889]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.43.11:752][889]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.14:795][898]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.43.14:795][898]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.15:492][900]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.43.15:492][900]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.15:830][901]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.43.15:830][901]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.16:192][902]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.43.16:193][902]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.16:863][904]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.43.16:863][904]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.17:189][905]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.43.17:189][905]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.17:536][906]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.43.17:536][906]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.17:898][907]LightingResults: Warning: coral_disk_sm Object has overlapping UVs.
+[2020.06.16-15.43.17:899][907]LightingResults: coral_disk_sm Lightmap UV are overlapping by 83.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.17:899][907]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.43.17:899][907]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.18:236][908]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.43.18:236][908]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.18:584][909]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.43.18:584][909]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.19:013][910]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.43.19:013][910]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.19:343][911]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.43.19:343][911]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.19:633][912]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.43.19:633][912]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.20:004][913]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.43.20:004][913]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.20:693][915]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.43.20:693][915]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.20:999][916]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.43.20:999][916]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.21:000][916]LightingResults: Warning: coral_disk_sm Object has overlapping UVs.
+[2020.06.16-15.43.21:000][916]LightingResults: coral_disk_sm Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.21:342][917]LightingResults: Warning: coral_disk_sm Object has overlapping UVs.
+[2020.06.16-15.43.21:342][917]LightingResults: coral_disk_sm Lightmap UV are overlapping by 83.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.21:342][917]LightingResults: Warning: coral_disk_sm Object has overlapping UVs.
+[2020.06.16-15.43.21:342][917]LightingResults: coral_disk_sm Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.21:682][918]LightingResults: Warning: coral_disk_sm Object has overlapping UVs.
+[2020.06.16-15.43.21:683][918]LightingResults: coral_disk_sm Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.22:013][919]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.43.22:013][919]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.22:013][919]LightingResults: Warning: coral_disk_sm Object has overlapping UVs.
+[2020.06.16-15.43.22:013][919]LightingResults: coral_disk_sm Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.22:686][921]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.43.22:686][921]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.23:033][922]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.43.23:033][922]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.23:033][922]LightingResults: Warning: coral_disk_sm Object has overlapping UVs.
+[2020.06.16-15.43.23:033][922]LightingResults: coral_disk_sm Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.23:369][923]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.43.23:369][923]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.23:773][924]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.43.23:773][924]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.23:773][924]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.43.23:773][924]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.24:057][925]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.43.24:057][925]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.24:384][926]LightingResults: Warning: coral_disk_sm Object has overlapping UVs.
+[2020.06.16-15.43.24:384][926]LightingResults: coral_disk_sm Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.24:384][926]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.43.24:384][926]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.25:073][928]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.43.25:073][928]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.25:393][929]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.43.25:393][929]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.25:393][929]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.43.25:393][929]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.26:191][931]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.43.26:191][931]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.26:458][932]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.43.26:458][932]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.26:803][933]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.43.26:803][933]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.26:803][933]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.43.26:803][933]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.27:817][936]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.43.27:817][936]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.27:817][936]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.43.27:817][936]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.27:817][936]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.43.27:817][936]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.28:161][937]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.43.28:161][937]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.28:505][938]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.43.28:505][938]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.28:862][939]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.43.28:862][939]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.28:862][939]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.43.28:862][939]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.29:190][940]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.43.29:190][940]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.29:532][941]LightingResults: Warning: coral_disk_sm Object has overlapping UVs.
+[2020.06.16-15.43.29:532][941]LightingResults: coral_disk_sm Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.29:532][941]LightingResults: Warning: coral_disk_sm Object has overlapping UVs.
+[2020.06.16-15.43.29:532][941]LightingResults: coral_disk_sm Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.29:871][942]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.43.29:871][942]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.30:205][943]LightingResults: Warning: coral_disk_sm Object has overlapping UVs.
+[2020.06.16-15.43.30:205][943]LightingResults: coral_disk_sm Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.30:544][944]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.43.30:544][944]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.30:886][945]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.43.30:886][945]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.31:291][946]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.43.31:292][946]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.31:292][946]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.43.31:292][946]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.31:554][947]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.43.31:554][947]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.31:893][948]LightingResults: Warning: coral_disk_sm Object has overlapping UVs.
+[2020.06.16-15.43.31:893][948]LightingResults: coral_disk_sm Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.32:247][949]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.43.32:247][949]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.35:408][958]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.43.35:408][958]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.37:444][964]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.43.37:444][964]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.38:123][966]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.43.38:123][966]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.38:809][968]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.43.38:809][968]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2020.06.16-15.43.40:850][974]LightingResults: Warning: cliff_01_02_low Object has overlapping UVs.
+[2020.06.16-15.43.40:850][974]LightingResults: cliff_01_02_low Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
